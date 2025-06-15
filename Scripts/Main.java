@@ -1,8 +1,7 @@
 package Scripts;
 
-public class Main{
+public class Main {
     public static void main(String[] args) {
-        Board board = new Board();
-        board.generateBoard();
+        new TicTacToeGUI();
     }
 }
