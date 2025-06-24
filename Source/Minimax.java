@@ -4,8 +4,6 @@ public abstract class Minimax {
     public Minimax() {
     }
 
-    private static final int MAX_DEPTH = 9; // Maximum depth for minimax search
-
     public static int findBestMove(String[] board) {
         int bestScore = Integer.MIN_VALUE;
         int bestMove = -1;
